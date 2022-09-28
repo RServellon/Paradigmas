@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<!--
+* Fake page
+@author loricarlos@gmail.com
+@version demo
+-->
+<html>
+    <header>
+        <script type="module">
+            import {get_persons} from "./js/services.js" ;
+            import {get_persons_by_selection} from "./js/services.js" ;
+            const PERSONS_TAG = 'persons'
+            const GENDER_OPTION = 'genders'
+            const AGE_OPTION = 'age'
+            const ID_OPTION = 'id'
+            const TABLE_PERSONS_TAG = 'table_persons'
+            const DEFAULT_URI = '/persons'
+            const LETTER_OPTION = 'letter'
+            // Botones
+            const BUTTONS_TAG = 'button_persons'
+            const ID_BUTTONS_TAG = 'id'
+            const AGE_BUTTONS_TAG = 'age'
+            const GENDER_BUTTONS_TAG = 'genders'
+            const LETTER_BUTTONS_TAG = 'letter'
+
+
+            async function view_persons(URI = DEFAULT_URI){
+                const table_persons_tag = document.getElementById(TABLE_PERSONS_TAG)
+                const queryOptions = {
+                    idSelected: document.getElementById(ID_OPTION).value,
+                    ageSelected: document.getElementById(AGE_OPTION).value,
+                    genderSelected: document.getElementById(GENDER_OPTION).value,
+                    letterSelected: document.getElementById(LETTER_OPTION).value
+                }
+                try{
+                    const data = await get_persons_by_selection(URI, queryOptions)
+                    let htmlElements = `
+                    <tr>
+                      <th>Id</th>
+                      <th>First name</th>
+                      <th>Last name</th>
+                      <th>Age</th>
+                      <th>Gender</th>
+                    </tr>
+                    `
+                    data.forEach(e => {
+                        htmlElements += `
+                        <tr>
+                            <td>${e.id}</td>
+                            <td>${e.firstname}</td>
+                            <td>${e.lastname}</td>
+                            <td>${e.age}</td>
+                            <td>${e.gender}</td>
+                        </tr>
+                        `
+                    })
+                    table_persons_tag.innerHTML = htmlElements 
+                } catch(err){
+                    alert(err)
+                }
+            }
+            // Bind button
+            const button_tag = document.getElementById(BUTTONS_TAG)
+            const id_button_tag = document.getElementById(ID_BUTTONS_TAG)
+            const gender_button_tag = document.getElementById(GENDER_BUTTONS_TAG)
+            const age_button_tag = document.getElementById(AGE_BUTTONS_TAG)
+            const letter_button_tag = document.getElementById(LETTER_BUTTONS_TAG)
+            button_tag.addEventListener('click', view_persons, false)
+            id_button_tag.addEventListener('click', view_persons, false)
+            gender_button_tag.addEventListener('click', view_persons, false)
+            age_button_tag.addEventListener('click', view_persons, false)
+            letter_button_tag.addEventListener('click', view_persons, false)
+        </script>
+        
+    </header>
+    <body>
+        <h1>Fake Index Page</h1>
+        <h2>Persons Application</h2>
+        <button id="button_persons">Click to view Persons</button>
+        <div id="idblock" name="idblock">
+            <label for="id">Id</label>
+            <input type="number" id="id" name="id" value="" min="0" size="2" style="width: 2em;">
+        <div>
+        <div id="controls" name="controls">
+            <select name="genders" id="genders">
+                <option value="all" selected>All</option>
+                <option value="male">Male</option>
+                <option value="female">Female</option>
+            </select>
+            
+            <select name="age" id="age">
+                <option value="all" id="all" selected>All</option>
+                <option value="child" id="child">Child(&lt; 11)</option>
+                <option value="teenager" id="teenager">Tenager(12-20)</option>
+                <option value="adult" id="adult">Adult(21-64)</option>
+                <option value="senior" id="senior">Senior(&gt; 64)</option>
+            </select>
+
+            <select name="letter" id="letter">
+                <option value="all" id="allLetters" selected>All</option>
+                <option value="A" id="A">A</option>
+                <option value="S" id="S">S</option>
+                <option value="J" id="J">J</option>
+            </select>
+        </div>
+         <div id="persons" name="persons">
+                <table id="table_persons">
+                    <tr>
+                        <th>Id</th>
+                        <th>First name</th>
+                        <th>Last name</th>
+                        <th>Age</th>
+                        <th>Gender</th>
+                      </tr>
+                </table>
+            </div>
+    </body>
+</html>
+
+
+<!-- <option value="all" id="all" data-min="0" data-max="100" selected>All</option>
+    <option value="child" id="child" data-min="0" data-max="11">Child(&lt; 11)</option>
+    <option value="teenager" id="teenager" data-min="12" data-max="20">Tenager(12-20)</option>
+    <option value="adult" id="adult" data-min="21" data-max="64">Adult(21-64)</option>
+    <option value="senior" id="senior" data-min="65" data-max="100">Senior(&gt; 64)</option> -->
+
+<!-- 
+function create_table_elements(persons){
+    persons.forEach(e => {
+        
+    })
+}
+
+const tr = document.createElement("tr")
+const td1 = document.createElement("td")
+const td2 = document.createElement("td")
+const td3 = document.createElement("td")
+const td4 = document.createElement("td")
+td1.innerText = e.firstname
+td2.innerText = e.lastname
+td3.innerText = e.age
+td4.innerText = e.gender
+tr.append(td1)
+tr.append(td2)
+tr.append(td3)
+tr.append(td4)
+table_persons_tag.append(tr) 
+-->
+<!-- 
+function view_persons(URI = DEFAULT_URI){
+    const persons_tag = document.getElementById(PERSONS_TAG)
+    get_persons(URI).then(persons =>  persons_tag.innerHTML = persons )
+                    .catch( err => alert(err) )
+} -->
