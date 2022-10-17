@@ -52,7 +52,7 @@ const delayFunction = d => d % 1000 * 1000
 export function get_persons(url = "/person", delay = 3) {
     return new Promise(then =>
         setTimeout(() => then(JSON.stringify(persons.map((p) => p.toObj()))), delayFunction(delay)))
-  }
+}
 
 
 const persons = data.persons.map(p => new Person(p.firstname, p.lastname, p.age, p.gender).toObj())
@@ -68,23 +68,22 @@ const or = (...filters) => filters.reduce(or2, filters.length > 0 ? False : True
 
 // Filtros
 const ageRange = r => p => p.age >= r.inf && p.age <= r.sup
-const id = id => p => id === '' ? True : p.id === parseInt(id)
+const id = id => p => id === "" || p.id == id;
 const male = p => p.gender === 'M'
 const female = not(male)
 const startsWithXLetter = letter => p => letter === 'all' ? True : p.firstname.startsWith(letter)
 
-const allAges = new Map([
+const allFilters = new Map([
     ['all', ageRange(Age.ALL)],
     ['child', ageRange(Age.CHILD)],
     ['teenager', ageRange(Age.TEENAGER)],
     ['adult', ageRange(Age.ADULT)],
-    ['senior', ageRange(Age.SENIOR)]
-])
-
-const allGenders = new Map([
+    ['senior', ageRange(Age.SENIOR)],
     ['all', True],
     ['male', male],
-    ['female', female]
+    ['female', female],
+    ['id', id],
+    ['startsWithXLetter', startsWithXLetter]
 ])
 
 // Unificación de filtros    
@@ -92,11 +91,9 @@ export function get_persons_by_selection(URI="/persons", queryOptions, delay = 3
     return new Promise(then =>
             setTimeout(() =>
                 then(persons
-                    .filter(and(allAges.get(queryOptions.ageSelected), allGenders.get(queryOptions.genderSelected), 
-                    startsWithXLetter(queryOptions.letterSelected), id(queryOptions.idSelected)), 
-            delayFunction(delay))
-            )
-        )
+                    .filter(and(allFilters.get(queryOptions.ageSelected), allFilters.get(queryOptions.genderSelected), 
+                    allFilters.get('startsWithXLetter')(queryOptions.letterSelected), allFilters.get('id')(queryOptions.idSelected)))
+            ), delayFunction(delay))
     )
 }
 
