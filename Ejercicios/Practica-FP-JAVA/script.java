@@ -5,7 +5,7 @@ Random rd = new Random();
 double randomValue = rd.nextDouble(0, 100);
 
 //Boxed: operacion intermedia, lazy,devuelve un Stream que consta de los elementos de este flujo, cada uno encapsulado en un double.
-List<Double> a = DoubleStream.iterate(randomValue, n -> randomValue).limit(10000).boxed().collect(Collectors.toList());
+List<Double> a = DoubleStream.iterate(randomValue, n -> randomValue).limit(100000).boxed().collect(Collectors.toList());
 
 // 2) Dada una lista a de Double, verificar con datos experimentales las hipótesis (en Java) sobre el algoritmo: a.stream().reduce((a, x) -> a + Math.exp(Math.log(x+1))) 
 // a) Si a.size() es pequeño usar parallel resultará en promedio en un tiempo de corrida peor que sin usarlo (el paralelismo deteriora el tiempo de corrida).

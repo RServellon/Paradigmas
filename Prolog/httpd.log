@@ -1,0 +1,379 @@
+server(started, 1666484844).
+/*Sat Oct 22 18:27:24 2022*/ request(1, 1666484844.049, [peer(ip(127,0,0,1)),method(get),request_uri(/),path(/),http_version(1-1),host(localhost),port(8000),connection('keep-alive'),sec_ch_ua('"Chromium";v="106", "Google Chrome";v="106", "Not;A=Brand";v="99"'),sec_ch_ua_mobile('?0'),sec_ch_ua_platform('"Windows"'),upgrade_insecure_requests('1'),user_agent('Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36'),sec_fetch_site(none),sec_fetch_mode(navigate),sec_fetch_user('?1'),sec_fetch_dest(document)]).
+completed(1, 0.0, 343, 200, ok).
+/*Sat Oct 22 18:27:24 2022*/ request(2, 1666484844.184, [peer(ip(127,0,0,1)),method(get),request_uri('/favicon.ico'),path('/favicon.ico'),http_version(1-1),host(localhost),port(8000),connection('keep-alive'),sec_ch_ua('"Chromium";v="106", "Google Chrome";v="106", "Not;A=Brand";v="99"'),sec_ch_ua_mobile('?0'),user_agent('Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36'),sec_ch_ua_platform('"Windows"'),sec_fetch_site('same-origin'),sec_fetch_mode('no-cors'),sec_fetch_dest(image),referer('http://localhost:8000/')]).
+completed(2, 0.0, 93, 404, error(404,'/favicon.ico')).
+server(stopped, 1666486101).
+server(started, 1666486238).
+/*Sat Oct 22 18:50:37 2022*/ request(1, 1666486237.845, [peer(ip(127,0,0,1)),method(get),request_uri(/),path(/),http_version(1-1),host(localhost),port(8000),connection('keep-alive'),cache_control('max-age=0'),sec_ch_ua('"Chromium";v="106", "Google Chrome";v="106", "Not;A=Brand";v="99"'),sec_ch_ua_mobile('?0'),sec_ch_ua_platform('"Windows"'),upgrade_insecure_requests('1'),user_agent('Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36'),sec_fetch_site(none),sec_fetch_mode(navigate),sec_fetch_user('?1'),sec_fetch_dest(document)]).
+completed(1, 0.03125, 359, 200, ok).
+server(stopped, 1666486251).
+server(started, 1666486550).
+/*Sat Oct 22 18:55:49 2022*/ request(1, 1666486549.981, [peer(ip(127,0,0,1)),method(get),request_uri(/),path(/),http_version(1-1),host(localhost),port(8000),connection('keep-alive'),sec_ch_ua('"Chromium";v="106", "Google Chrome";v="106", "Not;A=Brand";v="99"'),sec_ch_ua_mobile('?0'),sec_ch_ua_platform('"Windows"'),upgrade_insecure_requests('1'),user_agent('Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36'),sec_fetch_site(none),sec_fetch_mode(navigate),sec_fetch_user('?1'),sec_fetch_dest(document)]).
+completed(1, 0.04687500000000001, 359, 200, ok).
+/*Sat Oct 22 18:55:50 2022*/ request(2, 1666486550.142, [peer(ip(127,0,0,1)),method(get),request_uri('/favicon.ico'),path('/favicon.ico'),http_version(1-1),host(localhost),port(8000),connection('keep-alive'),sec_ch_ua('"Chromium";v="106", "Google Chrome";v="106", "Not;A=Brand";v="99"'),sec_ch_ua_mobile('?0'),user_agent('Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36'),sec_ch_ua_platform('"Windows"'),sec_fetch_site('same-origin'),sec_fetch_mode('no-cors'),sec_fetch_dest(image),referer('http://localhost:8000/')]).
+completed(2, 0.0, 93, 404, error(404,'/favicon.ico')).
+server(stopped, 1666486929).
+server(started, 1666487908).
+/*Sat Oct 22 19:18:28 2022*/ request(1, 1666487908.093, [peer(ip(127,0,0,1)),method(get),request_uri(/),path(/),http_version(1-1),host(localhost),port(8000),connection('keep-alive'),cache_control('max-age=0'),sec_ch_ua('"Chromium";v="106", "Google Chrome";v="106", "Not;A=Brand";v="99"'),sec_ch_ua_mobile('?0'),sec_ch_ua_platform('"Windows"'),upgrade_insecure_requests('1'),user_agent('Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36'),sec_fetch_site(none),sec_fetch_mode(navigate),sec_fetch_user('?1'),sec_fetch_dest(document)]).
+completed(1, 0.03125, 359, 200, ok).
+/*Sat Oct 22 19:18:31 2022*/ request(2, 1666487911.269, [peer(ip(127,0,0,1)),method(get),request_uri(/),path(/),http_version(1-1),host(localhost),port(8000),connection('keep-alive'),cache_control('max-age=0'),sec_ch_ua('"Chromium";v="106", "Google Chrome";v="106", "Not;A=Brand";v="99"'),sec_ch_ua_mobile('?0'),sec_ch_ua_platform('"Windows"'),upgrade_insecure_requests('1'),user_agent('Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36'),sec_fetch_site(none),sec_fetch_mode(navigate),sec_fetch_user('?1'),sec_fetch_dest(document)]).
+completed(2, 0.0, 359, 200, ok).
+/*Sat Oct 22 19:18:32 2022*/ request(3, 1666487912.051, [peer(ip(127,0,0,1)),method(get),request_uri(/),path(/),http_version(1-1),host(localhost),port(8000),connection('keep-alive'),cache_control('max-age=0'),sec_ch_ua('"Chromium";v="106", "Google Chrome";v="106", "Not;A=Brand";v="99"'),sec_ch_ua_mobile('?0'),sec_ch_ua_platform('"Windows"'),upgrade_insecure_requests('1'),user_agent('Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36'),sec_fetch_site(none),sec_fetch_mode(navigate),sec_fetch_user('?1'),sec_fetch_dest(document)]).
+completed(3, 0.0, 359, 200, ok).
+server(stopped, 1666488515).
+server(started, 1666490251).
+/*Sat Oct 22 19:57:30 2022*/ request(1, 1666490250.728, [peer(ip(127,0,0,1)),method(post),request_uri(/),path(/),http_version(1-1),content_length(0),host(localhost),port(8000),user_agent('Java-http-client/17.0.1'),content_type('application/json')]).
+completed(1, 0.0, 359, 200, ok).
+server(started, 1666550830).
+/*Sun Oct 23 12:47:09 2022*/ request(1, 1666550829.684, [peer(ip(127,0,0,1)),method(post),request_uri(/),path(/),http_version(1-1),content_length(0),host(localhost),port(8000),user_agent('Java-http-client/19'),content_type('application/json')]).
+completed(1, 0.0625, 358, 200, ok).
+/*Sun Oct 23 12:47:25 2022*/ request(2, 1666550845.414, [peer(ip(127,0,0,1)),method(post),request_uri(/),path(/),http_version(1-1),content_length(0),host(localhost),port(8000),user_agent('Java-http-client/19'),content_type('application/json')]).
+completed(2, 0.0, 358, 200, ok).
+/*Sun Oct 23 12:47:37 2022*/ request(3, 1666550857.736, [peer(ip(127,0,0,1)),method(post),request_uri(/),path(/),http_version(1-1),content_length(0),host(localhost),port(8000),user_agent('Java-http-client/19'),content_type('application/json')]).
+completed(3, 0.0, 358, 200, ok).
+/*Sun Oct 23 12:48:06 2022*/ request(4, 1666550886.968, [peer(ip(127,0,0,1)),method(post),request_uri(/),path(/),http_version(1-1),content_length(0),host(localhost),port(8000),user_agent('Java-http-client/19'),content_type('application/json')]).
+completed(4, 0.0, 358, 200, ok).
+/*Sun Oct 23 12:50:20 2022*/ request(5, 1666551020.075, [peer(ip(127,0,0,1)),method(post),request_uri(/),path(/),http_version(1-1),content_length(0),host(localhost),port(8000),user_agent('Java-http-client/19'),content_type('application/json')]).
+completed(5, 0.0, 358, 200, ok).
+/*Sun Oct 23 12:51:30 2022*/ request(6, 1666551090.011, [peer(ip(127,0,0,1)),method(post),request_uri(/),path(/),http_version(1-1),content_length(0),host(localhost),port(8000),user_agent('Java-http-client/19'),content_type('application/json')]).
+completed(6, 0.0, 358, 200, ok).
+/*Sun Oct 23 12:51:35 2022*/ request(7, 1666551095.822, [peer(ip(127,0,0,1)),method(post),request_uri(/),path(/),http_version(1-1),content_length(0),host(localhost),port(8000),user_agent('Java-http-client/19'),content_type('application/json')]).
+completed(7, 0.0, 358, 200, ok).
+/*Sun Oct 23 12:51:37 2022*/ request(8, 1666551097.012, [peer(ip(127,0,0,1)),method(post),request_uri(/),path(/),http_version(1-1),content_length(0),host(localhost),port(8000),user_agent('Java-http-client/19'),content_type('application/json')]).
+completed(8, 0.0, 358, 200, ok).
+/*Sun Oct 23 12:51:38 2022*/ request(9, 1666551098.099, [peer(ip(127,0,0,1)),method(post),request_uri(/),path(/),http_version(1-1),content_length(0),host(localhost),port(8000),user_agent('Java-http-client/19'),content_type('application/json')]).
+completed(9, 0.0, 358, 200, ok).
+/*Sun Oct 23 12:52:24 2022*/ request(10, 1666551144.419, [peer(ip(127,0,0,1)),method(post),request_uri(/),path(/),http_version(1-1),content_length(0),host(localhost),port(8000),user_agent('Java-http-client/19'),content_type('application/json')]).
+completed(10, 0.0, 358, 200, ok).
+/*Sun Oct 23 12:53:31 2022*/ request(11, 1666551211.457, [peer(ip(127,0,0,1)),method(post),request_uri(/),path(/),http_version(1-1),content_length(0),host(localhost),port(8000),user_agent('Java-http-client/19'),content_type('application/json')]).
+completed(11, 0.015625, 358, 200, ok).
+/*Sun Oct 23 12:58:34 2022*/ request(12, 1666551514.958, [peer(ip(127,0,0,1)),method(post),request_uri(/),path(/),http_version(1-1),content_length(0),host(localhost),port(8000),user_agent('Java-http-client/19'),content_type('application/json')]).
+completed(12, 0.0, 358, 200, ok).
+/*Sun Oct 23 13:00:45 2022*/ request(13, 1666551645.986, [peer(ip(127,0,0,1)),method(post),request_uri(/),path(/),http_version(1-1),content_length(0),host(localhost),port(8000),user_agent('Java-http-client/19'),content_type('application/json')]).
+completed(13, 0.0, 358, 200, ok).
+/*Sun Oct 23 13:00:49 2022*/ request(14, 1666551649.607, [peer(ip(127,0,0,1)),method(post),request_uri(/),path(/),http_version(1-1),content_length(0),host(localhost),port(8000),user_agent('Java-http-client/19'),content_type('application/json')]).
+completed(14, 0.0, 358, 200, ok).
+/*Sun Oct 23 13:03:00 2022*/ request(15, 1666551780.364, [peer(ip(127,0,0,1)),method(post),request_uri(/),path(/),http_version(1-1),content_length(0),host(localhost),port(8000),user_agent('Java-http-client/19'),content_type('application/json')]).
+completed(15, 0.015625, 358, 200, ok).
+server(stopped, 1666552232).
+server(started, 1666552318).
+/*Sun Oct 23 13:11:58 2022*/ request(1, 1666552318.202, [peer(ip(127,0,0,1)),method(post),request_uri(/),path(/),http_version(1-1),content_length(17),host(localhost),port(8000),user_agent('Java-http-client/19'),content_type('application/json')]).
+completed(1, 0.04687500000000001, 105, 500, error("Stream <stream>(000001336b31a220):1:1 Syntax error: json(illegal_json)")).
+server(stopped, 1666552567).
+server(started, 1666552585).
+/*Sun Oct 23 13:16:24 2022*/ request(1, 1666552584.706, [peer(ip(127,0,0,1)),method(post),request_uri(/),path(/),http_version(1-1),content_length(17),host(localhost),port(8000),user_agent('Java-http-client/19'),content_type('application/json')]).
+completed(1, 0.0625, 105, 500, error("Stream <stream>(0000023291267320):1:1 Syntax error: json(illegal_json)")).
+server(stopped, 1666552624).
+server(started, 1666552688).
+/*Sun Oct 23 13:18:07 2022*/ request(1, 1666552687.727, [peer(ip(127,0,0,1)),method(post),request_uri(/),path(/),http_version(1-1),content_length(42),host(localhost),port(8000),user_agent('Java-http-client/19'),content_type('application/json')]).
+completed(1, 0.04687500000000001, 31, 200, ok).
+server(stopped, 1666552820).
+server(started, 1666552837).
+/*Sun Oct 23 13:20:37 2022*/ request(1, 1666552837.134, [peer(ip(127,0,0,1)),method(post),request_uri(/),path(/),http_version(1-1),content_length(27),host(localhost),port(8000),user_agent('Java-http-client/19'),content_type('application/json')]).
+completed(1, 0.015625, 21, 200, ok).
+/*Sun Oct 23 13:39:27 2022*/ request(2, 1666553967.585, [peer(ip(127,0,0,1)),method(post),request_uri(/),path(/),http_version(1-1),content_length(57),host(localhost),port(8000),user_agent('Java-http-client/19'),content_type('application/json')]).
+completed(2, 0.0, 58, 200, ok).
+server(started, 1666554083).
+/*Sun Oct 23 13:41:23 2022*/ request(1, 1666554083.379, [peer(ip(127,0,0,1)),method(post),request_uri(/),path(/),http_version(1-1),content_length(57),host(localhost),port(8000),user_agent('Java-http-client/19'),content_type('application/json')]).
+completed(1, 0.04687500000000001, 58, 200, ok).
+server(stopped, 1666554137).
+server(started, 1666554142).
+/*Sun Oct 23 13:42:21 2022*/ request(1, 1666554141.513, [peer(ip(127,0,0,1)),method(post),request_uri(/),path(/),http_version(1-1),content_length(56),host(localhost),port(8000),user_agent('Java-http-client/19'),content_type('application/json')]).
+completed(1, 0.03125, 57, 200, ok).
+/*Sun Oct 23 13:51:57 2022*/ request(2, 1666554717.517, [peer(ip(127,0,0,1)),method(post),request_uri(/),path(/),http_version(1-1),content_length(57),host(localhost),port(8000),user_agent('Java-http-client/19'),content_type('application/json')]).
+completed(2, 0.015625000000000007, 58, 200, ok).
+/*Sun Oct 23 13:54:31 2022*/ request(3, 1666554871.267, [peer(ip(127,0,0,1)),method(post),request_uri(/),path(/),http_version(1-1),content_length(57),host(localhost),port(8000),user_agent('Java-http-client/19'),content_type('application/json')]).
+completed(3, 0.0, 58, 200, ok).
+/*Sun Oct 23 13:54:45 2022*/ request(4, 1666554885.753, [peer(ip(127,0,0,1)),method(post),request_uri(/),path(/),http_version(1-1),content_length(43),host(localhost),port(8000),user_agent('Java-http-client/19'),content_type('application/json')]).
+completed(4, 0.0, 43, 200, ok).
+/*Sun Oct 23 13:58:00 2022*/ request(5, 1666555080.880, [peer(ip(127,0,0,1)),method(post),request_uri(/),path(/),http_version(1-1),content_length(43),host(localhost),port(8000),user_agent('Java-http-client/19'),content_type('application/json')]).
+completed(5, 0.0, 43, 200, ok).
+/*Sun Oct 23 13:58:38 2022*/ request(6, 1666555118.205, [peer(ip(127,0,0,1)),method(post),request_uri(/),path(/),http_version(1-1),content_length(43),host(localhost),port(8000),user_agent('Java-http-client/19'),content_type('application/json')]).
+completed(6, 0.0, 43, 200, ok).
+server(stopped, 1666555151).
+server(started, 1666555695).
+/*Sun Oct 23 14:08:14 2022*/ request(1, 1666555694.739, [peer(ip(127,0,0,1)),method(post),request_uri(/),path(/),http_version(1-1),content_length(57),host(localhost),port(8000),user_agent('Java-http-client/19'),content_type('application/json')]).
+completed(1, 0.0625, 58, 200, ok).
+server(stopped, 1666555702).
+server(started, 1666571073).
+/*Sun Oct 23 18:24:33 2022*/ request(1, 1666571073.049, [peer(ip(127,0,0,1)),method(post),request_uri(/),path(/),http_version(1-1),content_length(64),host(localhost),port(8000),user_agent('Java-http-client/19'),content_type('application/json')]).
+completed(1, 0.03125, 65, 200, ok).
+/*Sun Oct 23 18:25:48 2022*/ request(2, 1666571148.889, [peer(ip(127,0,0,1)),method(post),request_uri(/),path(/),http_version(1-1),content_length(64),host(localhost),port(8000),user_agent('Java-http-client/19'),content_type('application/json')]).
+completed(2, 0.0, 65, 200, ok).
+/*Sun Oct 23 18:25:55 2022*/ request(3, 1666571155.125, [peer(ip(127,0,0,1)),method(post),request_uri(/),path(/),http_version(1-1),content_length(64),host(localhost),port(8000),user_agent('Java-http-client/19'),content_type('application/json')]).
+completed(3, 0.0, 65, 200, ok).
+/*Sun Oct 23 18:26:01 2022*/ request(4, 1666571161.882, [peer(ip(127,0,0,1)),method(post),request_uri(/),path(/),http_version(1-1),content_length(64),host(localhost),port(8000),user_agent('Java-http-client/19'),content_type('application/json')]).
+completed(4, 0.0, 65, 200, ok).
+/*Sun Oct 23 18:26:20 2022*/ request(5, 1666571180.062, [peer(ip(127,0,0,1)),method(post),request_uri(/),path(/),http_version(1-1),content_length(64),host(localhost),port(8000),user_agent('Java-http-client/19'),content_type('application/json')]).
+completed(5, 0.0, 65, 200, ok).
+/*Sun Oct 23 18:27:37 2022*/ request(6, 1666571257.482, [peer(ip(127,0,0,1)),method(post),request_uri(/),path(/),http_version(1-1),content_length(64),host(localhost),port(8000),user_agent('Java-http-client/19'),content_type('application/json')]).
+completed(6, 0.0, 65, 200, ok).
+/*Sun Oct 23 18:27:43 2022*/ request(7, 1666571263.027, [peer(ip(127,0,0,1)),method(post),request_uri(/),path(/),http_version(1-1),content_length(63),host(localhost),port(8000),user_agent('Java-http-client/19'),content_type('application/json')]).
+completed(7, 0.0, 64, 200, ok).
+/*Sun Oct 23 18:27:49 2022*/ request(8, 1666571269.068, [peer(ip(127,0,0,1)),method(post),request_uri(/),path(/),http_version(1-1),content_length(64),host(localhost),port(8000),user_agent('Java-http-client/19'),content_type('application/json')]).
+completed(8, 0.0, 65, 200, ok).
+/*Sun Oct 23 18:27:57 2022*/ request(9, 1666571277.789, [peer(ip(127,0,0,1)),method(post),request_uri(/),path(/),http_version(1-1),content_length(54),host(localhost),port(8000),user_agent('Java-http-client/19'),content_type('application/json')]).
+completed(9, 0.0, 55, 200, ok).
+/*Sun Oct 23 18:28:37 2022*/ request(10, 1666571317.845, [peer(ip(127,0,0,1)),method(post),request_uri(/),path(/),http_version(1-1),content_length(64),host(localhost),port(8000),user_agent('Java-http-client/19'),content_type('application/json')]).
+completed(10, 0.0, 65, 200, ok).
+/*Sun Oct 23 18:28:42 2022*/ request(11, 1666571322.190, [peer(ip(127,0,0,1)),method(post),request_uri(/),path(/),http_version(1-1),content_length(92),host(localhost),port(8000),user_agent('Java-http-client/19'),content_type('application/json')]).
+completed(11, 0.0, 99, 200, ok).
+/*Sun Oct 23 18:28:47 2022*/ request(12, 1666571327.022, [peer(ip(127,0,0,1)),method(post),request_uri(/),path(/),http_version(1-1),content_length(91),host(localhost),port(8000),user_agent('Java-http-client/19'),content_type('application/json')]).
+completed(12, 0.0, 98, 200, ok).
+server(started, 1669688116).
+/*Mon Nov 28 20:15:15 2022*/ request(1, 1669688115.926, [peer(ip(127,0,0,1)),method(post),request_uri(/),path(/),http_version(1-1),content_length(78),host(localhost),port(8000),user_agent('Java-http-client/18.0.2'),content_type('application/json')]).
+completed(1, 0.0625, 119, 500, error("Illegal HTTP parameter: json([timestamp=2022-11-28 20:15:15.5881357,data=let a = asd")).
+/*Mon Nov 28 20:17:46 2022*/ request(2, 1669688266.353, [peer(ip(127,0,0,1)),method(post),request_uri(/),path(/),http_version(1-1),content_length(56),host(localhost),port(8000),user_agent('Java-http-client/18.0.2'),content_type('application/json')]).
+completed(2, 0.0, 113, 500, error("Illegal HTTP parameter: json([timestamp=2022-11-28 20:17:46.3475214,data=aaa])")).
+server(started, 1669745832).
+/*Tue Nov 29 12:17:12 2022*/ request(1, 1669745832.097, [peer(ip(127,0,0,1)),method(post),request_uri(/),path(/),http_version(1-1),content_length(82),host(localhost),port(8000),user_agent('Java-http-client/18.0.2'),content_type('application/json')]).
+completed(1, 0.09375, 92, 200, ok).
+/*Tue Nov 29 12:53:39 2022*/ request(2, 1669748019.290, [peer(ip(127,0,0,1)),method(post),request_uri(/),path(/),http_version(1-1),content_length(82),host(localhost),port(8000),user_agent('Java-http-client/18.0.2'),content_type('application/json')]).
+completed(2, 0.0, 92, 200, ok).
+/*Tue Nov 29 14:46:04 2022*/ request(3, 1669754764.751, [peer(ip(127,0,0,1)),method(post),request_uri(/),path(/),http_version(1-1),content_length(170),host(localhost),port(8000),user_agent('Java-http-client/18.0.2'),content_type('application/json')]).
+completed(3, 0.0, 180, 200, ok).
+/*Tue Nov 29 14:46:33 2022*/ request(4, 1669754793.410, [peer(ip(127,0,0,1)),method(post),request_uri(/),path(/),http_version(1-1),content_length(170),host(localhost),port(8000),user_agent('Java-http-client/18.0.2'),content_type('application/json')]).
+completed(4, 0.0, 180, 200, ok).
+/*Tue Nov 29 14:48:28 2022*/ request(5, 1669754908.149, [peer(ip(127,0,0,1)),method(post),request_uri(/),path(/),http_version(1-1),content_length(170),host(localhost),port(8000),user_agent('Java-http-client/18.0.2'),content_type('application/json')]).
+completed(5, 0.0, 180, 200, ok).
+/*Tue Nov 29 14:48:56 2022*/ request(6, 1669754936.525, [peer(ip(127,0,0,1)),method(post),request_uri(/),path(/),http_version(1-1),content_length(81),host(localhost),port(8000),user_agent('Java-http-client/18.0.2'),content_type('application/json')]).
+completed(6, 0.0, 91, 200, ok).
+/*Tue Nov 29 14:51:40 2022*/ request(7, 1669755100.891, [peer(ip(127,0,0,1)),method(post),request_uri(/),path(/),http_version(1-1),content_length(83),host(localhost),port(8000),user_agent('Java-http-client/18.0.2'),content_type('application/json')]).
+completed(7, 0.0, 93, 200, ok).
+/*Tue Nov 29 16:55:19 2022*/ request(8, 1669762519.867, [peer(ip(127,0,0,1)),method(post),request_uri(/),path(/),http_version(1-1),content_length(82),host(localhost),port(8000),user_agent('Java-http-client/18.0.2'),content_type('application/json')]).
+completed(8, 0.0, 92, 200, ok).
+/*Tue Nov 29 16:55:26 2022*/ request(9, 1669762526.649, [peer(ip(127,0,0,1)),method(post),request_uri(/),path(/),http_version(1-1),content_length(82),host(localhost),port(8000),user_agent('Java-http-client/18.0.2'),content_type('application/json')]).
+completed(9, 0.015625, 92, 200, ok).
+server(started, 1669775590).
+/*Tue Nov 29 20:33:09 2022*/ request(1, 1669775589.661, [peer(ip(127,0,0,1)),method(post),request_uri(/),path(/),http_version(1-1),content_length(82),host(localhost),port(8000),user_agent('Java-http-client/18.0.2'),content_type('application/json')]).
+completed(1, 0.046874999999999986, 92, 200, ok).
+/*Tue Nov 29 20:48:02 2022*/ request(2, 1669776482.805, [peer(ip(127,0,0,1)),method(post),request_uri(/),path(/),http_version(1-1),content_length(82),host(localhost),port(8000),user_agent('Java-http-client/18.0.2'),content_type('application/json')]).
+completed(2, 0.0, 92, 200, ok).
+server(started, 1669786278).
+/*Tue Nov 29 23:31:18 2022*/ request(1, 1669786278.313, [peer(ip(127,0,0,1)),method(post),request_uri(/),path(/),http_version(1-1),content_length(82),host(localhost),port(8000),user_agent('Java-http-client/18.0.2'),content_type('application/json')]).
+completed(1, 0.046875, 92, 200, ok).
+/*Tue Nov 29 23:31:31 2022*/ request(2, 1669786291.637, [peer(ip(127,0,0,1)),method(post),request_uri(/),path(/),http_version(1-1),content_length(82),host(localhost),port(8000),user_agent('Java-http-client/18.0.2'),content_type('application/json')]).
+completed(2, 0.0, 92, 200, ok).
+/*Tue Nov 29 23:33:09 2022*/ request(3, 1669786389.190, [peer(ip(127,0,0,1)),method(post),request_uri(/),path(/),http_version(1-1),content_length(82),host(localhost),port(8000),user_agent('Java-http-client/18.0.2'),content_type('application/json')]).
+completed(3, 0.0, 92, 200, ok).
+/*Tue Nov 29 23:33:39 2022*/ request(4, 1669786419.480, [peer(ip(127,0,0,1)),method(post),request_uri(/),path(/),http_version(1-1),content_length(83),host(localhost),port(8000),user_agent('Java-http-client/18.0.2'),content_type('application/json')]).
+completed(4, 0.0, 93, 200, ok).
+/*Tue Nov 29 23:34:26 2022*/ request(5, 1669786466.089, [peer(ip(127,0,0,1)),method(post),request_uri(/),path(/),http_version(1-1),content_length(82),host(localhost),port(8000),user_agent('Java-http-client/18.0.2'),content_type('application/json')]).
+completed(5, 0.0, 92, 200, ok).
+/*Tue Nov 29 23:36:41 2022*/ request(6, 1669786601.206, [peer(ip(127,0,0,1)),method(post),request_uri(/),path(/),http_version(1-1),content_length(82),host(localhost),port(8000),user_agent('Java-http-client/18.0.2'),content_type('application/json')]).
+completed(6, 0.0, 92, 200, ok).
+/*Tue Nov 29 23:37:20 2022*/ request(7, 1669786640.015, [peer(ip(127,0,0,1)),method(post),request_uri(/),path(/),http_version(1-1),content_length(82),host(localhost),port(8000),user_agent('Java-http-client/18.0.2'),content_type('application/json')]).
+completed(7, 0.0, 92, 200, ok).
+/*Wed Nov 30 00:00:12 2022*/ request(8, 1669788012.357, [peer(ip(127,0,0,1)),method(post),request_uri(/),path(/),http_version(1-1),content_length(82),host(localhost),port(8000),user_agent('Java-http-client/18.0.2'),content_type('application/json')]).
+completed(8, 0.0, 92, 200, ok).
+server(started, 1669801167).
+/*Wed Nov 30 03:39:26 2022*/ request(1, 1669801166.691, [peer(ip(127,0,0,1)),method(post),request_uri(/),path(/),http_version(1-1),content_length(82),host(localhost),port(8000),user_agent('Java-http-client/18.0.2'),content_type('application/json')]).
+completed(1, 0.046875000000000014, 92, 200, ok).
+/*Wed Nov 30 03:39:31 2022*/ request(2, 1669801171.343, [peer(ip(127,0,0,1)),method(post),request_uri(/),path(/),http_version(1-1),content_length(82),host(localhost),port(8000),user_agent('Java-http-client/18.0.2'),content_type('application/json')]).
+completed(2, 0.0, 92, 200, ok).
+/*Wed Nov 30 03:39:37 2022*/ request(3, 1669801177.030, [peer(ip(127,0,0,1)),method(post),request_uri(/),path(/),http_version(1-1),content_length(82),host(localhost),port(8000),user_agent('Java-http-client/18.0.2'),content_type('application/json')]).
+completed(3, 0.0, 92, 200, ok).
+/*Wed Nov 30 03:40:10 2022*/ request(4, 1669801210.169, [peer(ip(127,0,0,1)),method(post),request_uri(/),path(/),http_version(1-1),content_length(82),host(localhost),port(8000),user_agent('Java-http-client/18.0.2'),content_type('application/json')]).
+completed(4, 0.0, 92, 200, ok).
+/*Wed Nov 30 03:40:11 2022*/ request(5, 1669801211.929, [peer(ip(127,0,0,1)),method(post),request_uri(/),path(/),http_version(1-1),content_length(82),host(localhost),port(8000),user_agent('Java-http-client/18.0.2'),content_type('application/json')]).
+completed(5, 0.0, 92, 200, ok).
+/*Wed Nov 30 03:40:26 2022*/ request(6, 1669801226.379, [peer(ip(127,0,0,1)),method(post),request_uri(/),path(/),http_version(1-1),content_length(82),host(localhost),port(8000),user_agent('Java-http-client/18.0.2'),content_type('application/json')]).
+completed(6, 0.0, 92, 200, ok).
+/*Wed Nov 30 04:01:42 2022*/ request(7, 1669802502.220, [peer(ip(127,0,0,1)),method(post),request_uri(/),path(/),http_version(1-1),content_length(82),host(localhost),port(8000),user_agent('Java-http-client/18.0.2'),content_type('application/json')]).
+completed(7, 0.0, 92, 200, ok).
+server(started, 1669823311).
+/*Wed Nov 30 09:48:30 2022*/ request(1, 1669823310.522, [peer(ip(127,0,0,1)),method(post),request_uri(/),path(/),http_version(1-1),content_length(82),host(localhost),port(8000),user_agent('Java-http-client/18.0.2'),content_type('application/json')]).
+completed(1, 0.078125, 92, 200, ok).
+/*Wed Nov 30 09:48:57 2022*/ request(2, 1669823337.408, [peer(ip(127,0,0,1)),method(post),request_uri(/),path(/),http_version(1-1),content_length(81),host(localhost),port(8000),user_agent('Java-http-client/18.0.2'),content_type('application/json')]).
+completed(2, 0.0, 91, 200, ok).
+/*Wed Nov 30 09:49:09 2022*/ request(3, 1669823349.318, [peer(ip(127,0,0,1)),method(post),request_uri(/),path(/),http_version(1-1),content_length(82),host(localhost),port(8000),user_agent('Java-http-client/18.0.2'),content_type('application/json')]).
+completed(3, 0.0, 92, 200, ok).
+/*Wed Nov 30 09:49:33 2022*/ request(4, 1669823373.457, [peer(ip(127,0,0,1)),method(post),request_uri(/),path(/),http_version(1-1),content_length(83),host(localhost),port(8000),user_agent('Java-http-client/18.0.2'),content_type('application/json')]).
+completed(4, 0.0, 93, 200, ok).
+/*Wed Nov 30 09:53:14 2022*/ request(5, 1669823594.441, [peer(ip(127,0,0,1)),method(post),request_uri(/),path(/),http_version(1-1),content_length(82),host(localhost),port(8000),user_agent('Java-http-client/18.0.2'),content_type('application/json')]).
+completed(5, 0.0, 92, 200, ok).
+/*Wed Nov 30 09:53:25 2022*/ request(6, 1669823605.701, [peer(ip(127,0,0,1)),method(post),request_uri(/),path(/),http_version(1-1),content_length(82),host(localhost),port(8000),user_agent('Java-http-client/18.0.2'),content_type('application/json')]).
+completed(6, 0.0, 92, 200, ok).
+/*Wed Nov 30 09:53:42 2022*/ request(7, 1669823622.526, [peer(ip(127,0,0,1)),method(post),request_uri(/),path(/),http_version(1-1),content_length(82),host(localhost),port(8000),user_agent('Java-http-client/18.0.2'),content_type('application/json')]).
+completed(7, 0.015625000000000007, 92, 200, ok).
+/*Wed Nov 30 09:53:55 2022*/ request(8, 1669823635.260, [peer(ip(127,0,0,1)),method(post),request_uri(/),path(/),http_version(1-1),content_length(82),host(localhost),port(8000),user_agent('Java-http-client/18.0.2'),content_type('application/json')]).
+completed(8, 0.015624999999999993, 92, 200, ok).
+/*Wed Nov 30 09:57:21 2022*/ request(9, 1669823841.199, [peer(ip(127,0,0,1)),method(post),request_uri(/),path(/),http_version(1-1),content_length(82),host(localhost),port(8000),user_agent('Java-http-client/18.0.2'),content_type('application/json')]).
+completed(9, 0.0, 92, 200, ok).
+/*Wed Nov 30 10:01:46 2022*/ request(10, 1669824106.060, [peer(ip(127,0,0,1)),method(post),request_uri(/),path(/),http_version(1-1),content_length(82),host(localhost),port(8000),user_agent('Java-http-client/18.0.2'),content_type('application/json')]).
+completed(10, 0.0, 92, 200, ok).
+/*Wed Nov 30 10:14:59 2022*/ request(11, 1669824899.578, [peer(ip(127,0,0,1)),method(post),request_uri(/),path(/),http_version(1-1),content_length(82),host(localhost),port(8000),user_agent('Java-http-client/18.0.2'),content_type('application/json')]).
+completed(11, 0.0, 92, 200, ok).
+/*Wed Nov 30 10:15:15 2022*/ request(12, 1669824915.245, [peer(ip(127,0,0,1)),method(post),request_uri(/),path(/),http_version(1-1),content_length(85),host(localhost),port(8000),user_agent('Java-http-client/18.0.2'),content_type('application/json')]).
+completed(12, 0.0, 95, 200, ok).
+/*Wed Nov 30 10:23:16 2022*/ request(13, 1669825396.935, [peer(ip(127,0,0,1)),method(post),request_uri(/),path(/),http_version(1-1),content_length(87),host(localhost),port(8000),user_agent('Java-http-client/18.0.2'),content_type('application/json')]).
+completed(13, 0.0, 97, 200, ok).
+/*Wed Nov 30 10:26:18 2022*/ request(14, 1669825578.121, [peer(ip(127,0,0,1)),method(post),request_uri(/),path(/),http_version(1-1),content_length(82),host(localhost),port(8000),user_agent('Java-http-client/18.0.2'),content_type('application/json')]).
+completed(14, 0.0, 92, 200, ok).
+/*Wed Nov 30 10:26:36 2022*/ request(15, 1669825596.257, [peer(ip(127,0,0,1)),method(post),request_uri(/),path(/),http_version(1-1),content_length(84),host(localhost),port(8000),user_agent('Java-http-client/18.0.2'),content_type('application/json')]).
+completed(15, 0.0, 94, 200, ok).
+/*Wed Nov 30 10:31:50 2022*/ request(16, 1669825910.187, [peer(ip(127,0,0,1)),method(post),request_uri(/),path(/),http_version(1-1),content_length(81),host(localhost),port(8000),user_agent('Java-http-client/18.0.2'),content_type('application/json')]).
+completed(16, 0.0, 91, 200, ok).
+/*Wed Nov 30 10:54:34 2022*/ request(17, 1669827274.726, [peer(ip(127,0,0,1)),method(post),request_uri(/),path(/),http_version(1-1),content_length(82),host(localhost),port(8000),user_agent('Java-http-client/18.0.2'),content_type('application/json')]).
+completed(17, 0.0, 92, 200, ok).
+/*Wed Nov 30 10:57:29 2022*/ request(18, 1669827449.205, [peer(ip(127,0,0,1)),method(post),request_uri(/),path(/),http_version(1-1),content_length(82),host(localhost),port(8000),user_agent('Java-http-client/18.0.2'),content_type('application/json')]).
+completed(18, 0.0, 92, 200, ok).
+/*Wed Nov 30 11:00:46 2022*/ request(19, 1669827646.342, [peer(ip(127,0,0,1)),method(post),request_uri(/),path(/),http_version(1-1),content_length(72),host(localhost),port(8000),user_agent('Java-http-client/18.0.2'),content_type('application/json')]).
+completed(19, 0.0, 82, 200, ok).
+/*Wed Nov 30 11:10:39 2022*/ request(20, 1669828239.923, [peer(ip(127,0,0,1)),method(post),request_uri(/),path(/),http_version(1-1),content_length(72),host(localhost),port(8000),user_agent('Java-http-client/18.0.2'),content_type('application/json')]).
+completed(20, 0.0, 82, 200, ok).
+/*Wed Nov 30 11:10:41 2022*/ request(21, 1669828241.797, [peer(ip(127,0,0,1)),method(post),request_uri(/),path(/),http_version(1-1),content_length(71),host(localhost),port(8000),user_agent('Java-http-client/18.0.2'),content_type('application/json')]).
+completed(21, 0.0, 81, 200, ok).
+/*Wed Nov 30 11:11:53 2022*/ request(22, 1669828313.165, [peer(ip(127,0,0,1)),method(post),request_uri(/),path(/),http_version(1-1),content_length(72),host(localhost),port(8000),user_agent('Java-http-client/18.0.2'),content_type('application/json')]).
+completed(22, 0.0, 82, 200, ok).
+/*Wed Nov 30 11:14:29 2022*/ request(23, 1669828469.784, [peer(ip(127,0,0,1)),method(post),request_uri(/),path(/),http_version(1-1),content_length(72),host(localhost),port(8000),user_agent('Java-http-client/18.0.2'),content_type('application/json')]).
+completed(23, 0.015625, 82, 200, ok).
+/*Wed Nov 30 11:15:02 2022*/ request(24, 1669828502.962, [peer(ip(127,0,0,1)),method(post),request_uri(/),path(/),http_version(1-1),content_length(72),host(localhost),port(8000),user_agent('Java-http-client/18.0.2'),content_type('application/json')]).
+completed(24, 0.0, 82, 200, ok).
+/*Wed Nov 30 11:15:13 2022*/ request(25, 1669828513.994, [peer(ip(127,0,0,1)),method(post),request_uri(/),path(/),http_version(1-1),content_length(75),host(localhost),port(8000),user_agent('Java-http-client/18.0.2'),content_type('application/json')]).
+completed(25, 0.0, 85, 200, ok).
+/*Wed Nov 30 11:23:30 2022*/ request(26, 1669829010.336, [peer(ip(127,0,0,1)),method(post),request_uri(/),path(/),http_version(1-1),content_length(72),host(localhost),port(8000),user_agent('Java-http-client/18.0.2'),content_type('application/json')]).
+completed(26, 0.0, 82, 200, ok).
+/*Wed Nov 30 11:24:29 2022*/ request(27, 1669829069.703, [peer(ip(127,0,0,1)),method(post),request_uri(/),path(/),http_version(1-1),content_length(72),host(localhost),port(8000),user_agent('Java-http-client/18.0.2'),content_type('application/json')]).
+completed(27, 0.0, 82, 200, ok).
+/*Wed Nov 30 11:25:34 2022*/ request(28, 1669829134.068, [peer(ip(127,0,0,1)),method(post),request_uri(/),path(/),http_version(1-1),content_length(72),host(localhost),port(8000),user_agent('Java-http-client/18.0.2'),content_type('application/json')]).
+completed(28, 0.0, 82, 200, ok).
+/*Wed Nov 30 11:34:58 2022*/ request(29, 1669829698.524, [peer(ip(127,0,0,1)),method(post),request_uri(/),path(/),http_version(1-1),content_length(72),host(localhost),port(8000),user_agent('Java-http-client/18.0.2'),content_type('application/json')]).
+completed(29, 0.0, 82, 200, ok).
+/*Wed Nov 30 11:42:11 2022*/ request(30, 1669830131.652, [peer(ip(127,0,0,1)),method(post),request_uri(/),path(/),http_version(1-1),content_length(72),host(localhost),port(8000),user_agent('Java-http-client/18.0.2'),content_type('application/json')]).
+completed(30, 0.015625000000000056, 82, 200, ok).
+/*Wed Nov 30 11:47:59 2022*/ request(31, 1669830479.753, [peer(ip(127,0,0,1)),method(post),request_uri(/),path(/),http_version(1-1),content_length(71),host(localhost),port(8000),user_agent('Java-http-client/18.0.2'),content_type('application/json')]).
+completed(31, 0.015625, 81, 200, ok).
+/*Wed Nov 30 13:00:11 2022*/ request(32, 1669834811.870, [peer(ip(127,0,0,1)),method(post),request_uri(/),path(/),http_version(1-1),content_length(72),host(localhost),port(8000),user_agent('Java-http-client/18.0.2'),content_type('application/json')]).
+completed(32, 0.0, 82, 200, ok).
+server(started, 1669859586).
+/*Wed Nov 30 19:53:06 2022*/ request(1, 1669859586.336, [peer(ip(127,0,0,1)),method(post),request_uri(/),path(/),http_version(1-1),content_length(49),host(localhost),port(8000),user_agent('Java-http-client/17.0.1'),content_type('application/json')]).
+completed(1, 0.0, 457, 500, error("goal unexpectedly failed: user:home([protocol(http),peer(ip(127,0,0,1)),pool(client('httpd@8000',user:http_dispatch,<stream>(00000226b818d510),<stream>(00000226b818aba0))),input(<stream>(00000226b818d510)),method(post),request_uri(/),path(/),http_version(1-1),content_length(49),host(localhost),port(8000),user_agent('Java-http-client/17.0.1'),accept([media(application/json,[],1.0,[])]),content_type('application/json')])")).
+/*Wed Nov 30 19:54:26 2022*/ request(2, 1669859666.326, [peer(ip(127,0,0,1)),method(post),request_uri(/),path(/),http_version(1-1),content_length(58),host(localhost),port(8000),user_agent('Java-http-client/17.0.1'),content_type('application/json')]).
+completed(2, 0.0, 457, 500, error("goal unexpectedly failed: user:home([protocol(http),peer(ip(127,0,0,1)),pool(client('httpd@8000',user:http_dispatch,<stream>(00000226b818acb0),<stream>(00000226b818afe0))),input(<stream>(00000226b818acb0)),method(post),request_uri(/),path(/),http_version(1-1),content_length(58),host(localhost),port(8000),user_agent('Java-http-client/17.0.1'),accept([media(application/json,[],1.0,[])]),content_type('application/json')])")).
+server(stopped, 1669859826).
+server(started, 1669859840).
+/*Wed Nov 30 19:57:19 2022*/ request(1, 1669859839.661, [peer(ip(127,0,0,1)),method(post),request_uri(/),path(/),http_version(1-1),content_length(44),host(localhost),port(8000),user_agent('Java-http-client/17.0.1'),content_type('application/json')]).
+completed(1, 0.015625, 457, 500, error("goal unexpectedly failed: user:home([protocol(http),peer(ip(127,0,0,1)),pool(client('httpd@8000',user:http_dispatch,<stream>(000002849d8cd950),<stream>(000002849d8cc740))),input(<stream>(000002849d8cd950)),method(post),request_uri(/),path(/),http_version(1-1),content_length(44),host(localhost),port(8000),user_agent('Java-http-client/17.0.1'),accept([media(application/json,[],1.0,[])]),content_type('application/json')])")).
+server(stopped, 1669859902).
+server(started, 1669859919).
+/*Wed Nov 30 19:58:38 2022*/ request(1, 1669859918.517, [peer(ip(127,0,0,1)),method(post),request_uri(/),path(/),http_version(1-1),content_length(49),host(localhost),port(8000),user_agent('Java-http-client/17.0.1'),content_type('application/json')]).
+completed(1, 0.0, 457, 500, error("goal unexpectedly failed: user:home([protocol(http),peer(ip(127,0,0,1)),pool(client('httpd@8000',user:http_dispatch,<stream>(000001ef9bf7af30),<stream>(000001ef9bf79f40))),input(<stream>(000001ef9bf7af30)),method(post),request_uri(/),path(/),http_version(1-1),content_length(49),host(localhost),port(8000),user_agent('Java-http-client/17.0.1'),accept([media(application/json,[],1.0,[])]),content_type('application/json')])")).
+server(stopped, 1669859941).
+server(started, 1669860014).
+/*Wed Nov 30 20:00:13 2022*/ request(1, 1669860013.789, [peer(ip(127,0,0,1)),method(post),request_uri(/),path(/),http_version(1-1),content_length(52),host(localhost),port(8000),user_agent('Java-http-client/17.0.1'),content_type('application/json')]).
+completed(1, 0.015625, 457, 500, error("goal unexpectedly failed: user:home([protocol(http),peer(ip(127,0,0,1)),pool(client('httpd@8000',user:http_dispatch,<stream>(000002136040c1f0),<stream>(000002136040e500))),input(<stream>(000002136040c1f0)),method(post),request_uri(/),path(/),http_version(1-1),content_length(52),host(localhost),port(8000),user_agent('Java-http-client/17.0.1'),accept([media(application/json,[],1.0,[])]),content_type('application/json')])")).
+server(stopped, 1669860107).
+server(started, 1669860117).
+/*Wed Nov 30 20:01:56 2022*/ request(1, 1669860116.511, [peer(ip(127,0,0,1)),method(post),request_uri(/),path(/),http_version(1-1),content_length(49),host(localhost),port(8000),user_agent('Java-http-client/17.0.1'),content_type('application/json')]).
+completed(1, 0.015625, 457, 500, error("goal unexpectedly failed: user:home([protocol(http),peer(ip(127,0,0,1)),pool(client('httpd@8000',user:http_dispatch,<stream>(00000268dc9ca300),<stream>(00000268dc9c8100))),input(<stream>(00000268dc9ca300)),method(post),request_uri(/),path(/),http_version(1-1),content_length(49),host(localhost),port(8000),user_agent('Java-http-client/17.0.1'),accept([media(application/json,[],1.0,[])]),content_type('application/json')])")).
+server(stopped, 1669860143).
+server(started, 1669860281).
+/*Wed Nov 30 20:04:41 2022*/ request(1, 1669860281.068, [peer(ip(127,0,0,1)),method(post),request_uri(/),path(/),http_version(1-1),content_length(49),host(localhost),port(8000),user_agent('Java-http-client/17.0.1'),content_type('application/json')]).
+completed(1, 0.0, 63, 500, error("Illegal HTTP parameter: Entre a reply")).
+server(stopped, 1669860371).
+server(started, 1669860393).
+/*Wed Nov 30 20:06:32 2022*/ request(1, 1669860392.636, [peer(ip(127,0,0,1)),method(post),request_uri(/),path(/),http_version(1-1),content_length(49),host(localhost),port(8000),user_agent('Java-http-client/17.0.1'),content_type('application/json')]).
+completed(1, 0.0, 63, 500, error("Illegal HTTP parameter: Entre a reply")).
+server(stopped, 1669860430).
+server(started, 1669860491).
+/*Wed Nov 30 20:08:11 2022*/ request(1, 1669860491.068, [peer(ip(127,0,0,1)),method(post),request_uri(/),path(/),http_version(1-1),content_length(54),host(localhost),port(8000),user_agent('Java-http-client/17.0.1'),content_type('application/json')]).
+completed(1, 0.015625, 63, 500, error("Illegal HTTP parameter: Entre a reply")).
+/*Wed Nov 30 20:10:12 2022*/ request(2, 1669860612.418, [peer(ip(127,0,0,1)),method(post),request_uri(/),path(/),http_version(1-1),content_length(55),host(localhost),port(8000),user_agent('Java-http-client/17.0.1'),content_type('application/json')]).
+completed(2, 0.0, 63, 500, error("Illegal HTTP parameter: Entre a reply")).
+/*Wed Nov 30 20:13:01 2022*/ request(3, 1669860781.877, [peer(ip(127,0,0,1)),method(post),request_uri(/),path(/),http_version(1-1),content_length(49),host(localhost),port(8000),user_agent('Java-http-client/17.0.1'),content_type('application/json')]).
+completed(3, 0.0, 63, 500, error("Illegal HTTP parameter: Entre a reply")).
+/*Wed Nov 30 20:13:20 2022*/ request(4, 1669860800.064, [peer(ip(127,0,0,1)),method(post),request_uri(/),path(/),http_version(1-1),content_length(50),host(localhost),port(8000),user_agent('Java-http-client/17.0.1'),content_type('application/json')]).
+completed(4, 0.0, 63, 500, error("Illegal HTTP parameter: Entre a reply")).
+server(stopped, 1669860808).
+server(started, 1669860819).
+/*Wed Nov 30 20:13:39 2022*/ request(1, 1669860819.203, [peer(ip(127,0,0,1)),method(post),request_uri(/),path(/),http_version(1-1),content_length(51),host(localhost),port(8000),user_agent('Java-http-client/17.0.1'),content_type('application/json')]).
+completed(1, 0.0, 63, 500, error("Illegal HTTP parameter: Entre a reply")).
+server(started, 1669860899).
+/*Wed Nov 30 20:14:59 2022*/ request(1, 1669860899.473, [peer(ip(127,0,0,1)),method(post),request_uri(/),path(/),http_version(1-1),content_length(49),host(localhost),port(8000),user_agent('Java-http-client/17.0.1'),content_type('application/json')]).
+completed(1, 0.0, 63, 500, error("Illegal HTTP parameter: Entre a reply")).
+server(stopped, 1669861025).
+server(started, 1669861038).
+/*Wed Nov 30 20:17:18 2022*/ request(1, 1669861038.329, [peer(ip(127,0,0,1)),method(post),request_uri(/),path(/),http_version(1-1),content_length(51),host(localhost),port(8000),user_agent('Java-http-client/17.0.1'),content_type('application/json')]).
+completed(1, 0.03125, 63, 500, error("Illegal HTTP parameter: Entre a reply")).
+server(stopped, 1669861542).
+server(started, 1669861578).
+/*Wed Nov 30 20:26:18 2022*/ request(1, 1669861578.066, [peer(ip(127,0,0,1)),method(post),request_uri(/),path(/),http_version(1-1),content_length(49),host(localhost),port(8000),user_agent('Java-http-client/17.0.1'),content_type('application/json')]).
+completed(1, 0.0, 63, 500, error("Illegal HTTP parameter: Entre a reply")).
+/*Wed Nov 30 20:31:50 2022*/ request(2, 1669861910.134, [peer(ip(127,0,0,1)),method(post),request_uri(/),path(/),http_version(1-1),content_length(46),host(localhost),port(8000),user_agent('Java-http-client/17.0.1'),content_type('application/json')]).
+completed(2, 0.0, 63, 500, error("Illegal HTTP parameter: Entre a reply")).
+server(started, 1669862242).
+/*Wed Nov 30 20:37:21 2022*/ request(1, 1669862241.922, [peer(ip(127,0,0,1)),method(post),request_uri(/),path(/),http_version(1-1),content_length(46),host(localhost),port(8000),user_agent('Java-http-client/17.0.1'),content_type('application/json')]).
+completed(1, 0.0, 63, 500, error("Illegal HTTP parameter: Entre a reply")).
+/*Wed Nov 30 20:38:25 2022*/ request(2, 1669862305.941, [peer(ip(127,0,0,1)),method(post),request_uri(/),path(/),http_version(1-1),content_length(59),host(localhost),port(8000),user_agent('Java-http-client/17.0.1'),content_type('application/json')]).
+completed(2, 0.0, 457, 500, error("goal unexpectedly failed: user:home([protocol(http),peer(ip(127,0,0,1)),pool(client('httpd@8000',user:http_dispatch,<stream>(000001c1a56f42f0),<stream>(000001c1a56f4510))),input(<stream>(000001c1a56f42f0)),method(post),request_uri(/),path(/),http_version(1-1),content_length(59),host(localhost),port(8000),user_agent('Java-http-client/17.0.1'),accept([media(application/json,[],1.0,[])]),content_type('application/json')])")).
+server(stopped, 1669862370).
+server(started, 1669862378).
+/*Wed Nov 30 20:39:38 2022*/ request(1, 1669862378.010, [peer(ip(127,0,0,1)),method(post),request_uri(/),path(/),http_version(1-1),content_length(59),host(localhost),port(8000),user_agent('Java-http-client/17.0.1'),content_type('application/json')]).
+completed(1, 0.015625, 457, 500, error("goal unexpectedly failed: user:home([protocol(http),peer(ip(127,0,0,1)),pool(client('httpd@8000',user:http_dispatch,<stream>(00000206d8e28300),<stream>(00000206d8e28a70))),input(<stream>(00000206d8e28300)),method(post),request_uri(/),path(/),http_version(1-1),content_length(59),host(localhost),port(8000),user_agent('Java-http-client/17.0.1'),accept([media(application/json,[],1.0,[])]),content_type('application/json')])")).
+server(started, 1669862713).
+/*Wed Nov 30 20:45:13 2022*/ request(1, 1669862713.065, [peer(ip(127,0,0,1)),method(post),request_uri(/),path(/),http_version(1-1),content_length(78),host(localhost),port(8000),user_agent('Java-http-client/17.0.1'),content_type('application/json')]).
+completed(1, 0.03125, 80, 500, error("home/1: Unknown procedure: convert_to_reply/3")).
+server(stopped, 1669862750).
+server(started, 1669862755).
+/*Wed Nov 30 20:45:55 2022*/ request(1, 1669862755.335, [peer(ip(127,0,0,1)),method(post),request_uri(/),path(/),http_version(1-1),content_length(78),host(localhost),port(8000),user_agent('Java-http-client/17.0.1'),content_type('application/json')]).
+completed(1, 0.0, 11, 200, ok).
+/*Wed Nov 30 20:46:20 2022*/ request(2, 1669862780.236, [peer(ip(127,0,0,1)),method(post),request_uri(/),path(/),http_version(1-1),content_length(82),host(localhost),port(8000),user_agent('Java-http-client/17.0.1'),content_type('application/json')]).
+completed(2, 0.0, 11, 200, ok).
+/*Wed Nov 30 20:46:22 2022*/ request(3, 1669862782.753, [peer(ip(127,0,0,1)),method(post),request_uri(/),path(/),http_version(1-1),content_length(86),host(localhost),port(8000),user_agent('Java-http-client/17.0.1'),content_type('application/json')]).
+completed(3, 0.0, 11, 200, ok).
+server(stopped, 1669863093).
+server(started, 1669863105).
+/*Wed Nov 30 20:51:44 2022*/ request(1, 1669863104.732, [peer(ip(127,0,0,1)),method(post),request_uri(/),path(/),http_version(1-1),content_length(78),host(localhost),port(8000),user_agent('Java-http-client/17.0.1'),content_type('application/json')]).
+completed(1, 0.0, 91, 200, ok).
+server(stopped, 1669864044).
+server(started, 1669864094).
+/*Wed Nov 30 21:08:14 2022*/ request(1, 1669864094.226, [peer(ip(127,0,0,1)),method(post),request_uri(/),path(/),http_version(1-1),content_length(78),host(localhost),port(8000),user_agent('Java-http-client/17.0.1'),content_type('application/json')]).
+completed(1, 0.015625, 61, 500, error("home/1: Unknown procedure: create/2")).
+server(stopped, 1669864130).
+server(started, 1669864144).
+/*Wed Nov 30 21:09:03 2022*/ request(1, 1669864143.566, [peer(ip(127,0,0,1)),method(post),request_uri(/),path(/),http_version(1-1),content_length(78),host(localhost),port(8000),user_agent('Java-http-client/17.0.1'),content_type('application/json')]).
+completed(1, 0.015625, 61, 500, error("home/1: Unknown procedure: create/2")).
+server(stopped, 1669864199).
+server(started, 1669864450).
+/*Wed Nov 30 21:14:09 2022*/ request(1, 1669864449.581, [peer(ip(127,0,0,1)),method(post),request_uri(/),path(/),http_version(1-1),content_length(83),host(localhost),port(8000),user_agent('Java-http-client/17.0.1'),content_type('application/json')]).
+completed(1, 0.015625, 61, 500, error("home/1: Unknown procedure: create/2")).
+/*Wed Nov 30 21:14:32 2022*/ request(2, 1669864472.415, [peer(ip(127,0,0,1)),method(post),request_uri(/),path(/),http_version(1-1),content_length(231),host(localhost),port(8000),user_agent('Java-http-client/17.0.1'),content_type('application/json')]).
+completed(2, 0.0, 61, 500, error("home/1: Unknown procedure: create/2")).
+server(stopped, 1669864519).
+server(started, 1669864534).
+/*Wed Nov 30 21:15:34 2022*/ request(1, 1669864534.341, [peer(ip(127,0,0,1)),method(post),request_uri(/),path(/),http_version(1-1),content_length(233),host(localhost),port(8000),user_agent('Java-http-client/17.0.1'),content_type('application/json')]).
+completed(1, 0.0, 61, 500, error("home/1: Unknown procedure: create/2")).
+server(stopped, 1669864612).
+server(started, 1669864638).
+/*Wed Nov 30 21:17:17 2022*/ request(1, 1669864637.616, [peer(ip(127,0,0,1)),method(post),request_uri(/),path(/),http_version(1-1),content_length(82),host(localhost),port(8000),user_agent('Java-http-client/17.0.1'),content_type('application/json')]).
+completed(1, 0.0, 61, 500, error("home/1: Unknown procedure: create/2")).
+/*Wed Nov 30 21:17:23 2022*/ request(2, 1669864643.898, [peer(ip(127,0,0,1)),method(post),request_uri(/),path(/),http_version(1-1),content_length(233),host(localhost),port(8000),user_agent('Java-http-client/17.0.1'),content_type('application/json')]).
+completed(2, 0.0, 61, 500, error("home/1: Unknown procedure: create/2")).
+server(stopped, 1669864670).
+server(started, 1669864690).
+/*Wed Nov 30 21:18:09 2022*/ request(1, 1669864689.911, [peer(ip(127,0,0,1)),method(post),request_uri(/),path(/),http_version(1-1),content_length(233),host(localhost),port(8000),user_agent('Java-http-client/17.0.1'),content_type('application/json')]).
+completed(1, 0.0, 61, 500, error("home/1: Unknown procedure: create/2")).
+server(stopped, 1669864710).
+server(started, 1669864758).
+/*Wed Nov 30 21:19:18 2022*/ request(1, 1669864758.118, [peer(ip(127,0,0,1)),method(post),request_uri(/),path(/),http_version(1-1),content_length(233),host(localhost),port(8000),user_agent('Java-http-client/17.0.1'),content_type('application/json')]).
+completed(1, 0.0, 61, 500, error("home/1: Unknown procedure: create/2")).
+/*Wed Nov 30 21:19:30 2022*/ request(2, 1669864770.632, [peer(ip(127,0,0,1)),method(post),request_uri(/),path(/),http_version(1-1),content_length(233),host(localhost),port(8000),user_agent('Java-http-client/17.0.1'),content_type('application/json')]).
+completed(2, 0.0, 61, 500, error("home/1: Unknown procedure: create/2")).
+server(stopped, 1669864800).
+server(started, 1669864815).
+/*Wed Nov 30 21:20:14 2022*/ request(1, 1669864814.977, [peer(ip(127,0,0,1)),method(post),request_uri(/),path(/),http_version(1-1),content_length(233),host(localhost),port(8000),user_agent('Java-http-client/17.0.1'),content_type('application/json')]).
+completed(1, 0.0, 61, 500, error("home/1: Unknown procedure: create/2")).
+server(stopped, 1669864847).
+server(started, 1669864857).
+/*Wed Nov 30 21:20:57 2022*/ request(1, 1669864857.214, [peer(ip(127,0,0,1)),method(post),request_uri(/),path(/),http_version(1-1),content_length(233),host(localhost),port(8000),user_agent('Java-http-client/17.0.1'),content_type('application/json')]).
+completed(1, 0.015625, 61, 500, error("home/1: Unknown procedure: create/2")).
+server(stopped, 1669865350).
+server(started, 1669865402).
+/*Wed Nov 30 21:30:01 2022*/ request(1, 1669865401.956, [peer(ip(127,0,0,1)),method(post),request_uri(/),path(/),http_version(1-1),content_length(233),host(localhost),port(8000),user_agent('Java-http-client/17.0.1'),content_type('application/json')]).
+completed(1, 0.015625, 88, 500, error("lexer:identifier/3: Unknown procedure: lexer:blanks/2")).
+server(stopped, 1669865469).
+server(started, 1669866145).
+/*Wed Nov 30 21:42:24 2022*/ request(1, 1669866144.879, [peer(ip(127,0,0,1)),method(post),request_uri(/),path(/),http_version(1-1),content_length(233),host(localhost),port(8000),user_agent('Java-http-client/17.0.1'),content_type('application/json')]).
+completed(1, 0.03125, 94, 500, error("Illegal HTTP parameter: A-->let(js_id(ABC),js_string(hola))")).

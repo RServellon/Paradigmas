@@ -1,0 +1,5 @@
+let ABC = "hola" in 
+    <div> 
+        for $li in doc(ABC)/li/ul 
+            return <p> {$li} </p>
+    </div>

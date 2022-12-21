@@ -1,0 +1,66 @@
+Compiled from "Source.java"
+class com.una.pp.quizone.Source {
+  com.una.pp.quizone.Source();
+    Code:
+       0: aload_0
+       1: invokespecial #1                  // Method java/lang/Object."<init>":()V
+       4: return
+
+  public static int fibonacciRec(int);
+    Code:
+       0: iload_0
+       1: ifeq          9
+       4: iload_0
+       5: iconst_1
+       6: if_icmpne     13
+       9: iconst_1
+      10: goto          30
+      13: iconst_2
+      14: iload_0
+      15: iconst_1
+      16: isub
+      17: invokestatic  #7                  // Method fibonacciRec:(I)I
+      20: imul
+      21: iconst_3
+      22: iload_0
+      23: iconst_2
+      24: isub
+      25: invokestatic  #7                  // Method fibonacciRec:(I)I
+      28: imul
+      29: iadd
+      30: ireturn
+
+  public static void main(java.lang.String...);
+    Code:
+       0: aload_0
+       1: iconst_0
+       2: aaload
+       3: invokestatic  #13                 // Method java/lang/Integer.parseInt:(Ljava/lang/String;)I
+       6: istore_1
+       7: iload_1
+       8: bipush        10
+      10: if_icmpge     17
+      13: iload_1
+      14: ifge          27
+      17: new           #19                 // class java/lang/Exception
+      20: dup
+      21: ldc           #21                 // String el numero debe estar entre 0 - 9
+      23: invokespecial #23                 // Method java/lang/Exception."<init>":(Ljava/lang/String;)V
+      26: athrow
+      27: getstatic     #26                 // Field java/lang/System.out:Ljava/io/PrintStream;
+      30: iload_1
+      31: invokevirtual #32                 // Method java/io/PrintStream.println:(I)V
+      34: getstatic     #26                 // Field java/lang/System.out:Ljava/io/PrintStream;
+      37: iload_1
+      38: invokestatic  #7                  // Method fibonacciRec:(I)I
+      41: invokevirtual #32                 // Method java/io/PrintStream.println:(I)V
+      44: goto          55
+      47: astore_1
+      48: getstatic     #26                 // Field java/lang/System.out:Ljava/io/PrintStream;
+      51: aload_1
+      52: invokevirtual #38                 // Method java/io/PrintStream.println:(Ljava/lang/Object;)V
+      55: return
+    Exception table:
+       from    to  target type
+           0    44    47   Class java/lang/Exception
+}
